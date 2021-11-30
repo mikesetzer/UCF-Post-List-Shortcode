@@ -14,6 +14,7 @@
   position: relative;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
+
   &:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.16);
     @media (max-width: 767px) {
@@ -26,6 +27,19 @@
     border-radius: 0 0 0 0;
     box-shadow: none;
     z-index: 0;
+  }
+  @media (min-width: 768px) {
+    margin-right: 8px !important;
+    margin-left: 8px !important;
+    width: 0%;
+    overflow-wrap: break-word;
+
+  }
+}
+
+.ucf-post-list-material-deck {
+  @media (min-width:768px) {
+    margin: 0 -8px;
   }
 }
 
@@ -66,7 +80,6 @@
   }
 }
 .ucf-post-list-material-block {
-  padding: 8px;
   z-index: 10;
     @media(max-width:767px) {
       :last-child{
@@ -76,13 +89,18 @@
 }
 
 .ucf-post-list-material-text {
-  font-size: .875rem;
+  font-size: .8rem;
   line-height: 1.6;
-  padding: 0 0.8rem;
+  margin: 0 0.8rem;
   font-weight: 400;
 }
 
 .ucf-post-list-material-title {
   font-weight: 500;
-  padding: .8rem;
+  margin: .8rem;
+}
+
+.ucf-post-list-material-date {
+  padding: 0!important;
+  margin: .4rem 0.8rem 1rem 0.8rem;
 }

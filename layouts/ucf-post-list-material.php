@@ -39,7 +39,7 @@ if ( ! function_exists( 'ucf_post_list_display_material' ) ) {
 		ob_start();
 ?>
 		<?php if ( $posts ): ?>
-			<div class="ucf-post-list-card-deck">
+			<div class="ucf-post-list-material-deck ucf-post-list-card-deck">
 
 			<?php
 			foreach( $posts as $index=>$item ) :
@@ -68,7 +68,7 @@ if ( ! function_exists( 'ucf_post_list_display_material' ) ) {
 							<?php if( $atts['show_excerpt'] ) : ?>
 								<p class="ucf-post-list-excerpt-text ucf-post-list-material-text"><?php echo $item_excerpt; ?></p>
 							<?php endif; ?>
-							<p class="ucf-post-list-card-text"><?php echo $date; ?></p>
+							<p class="ucf-post-list-material-date ucf-post-list-card-text"><?php echo $date; ?></p>
 						</div>
 					</a>
 				</div>
