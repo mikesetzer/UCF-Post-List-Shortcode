@@ -82,7 +82,8 @@ if ( !class_exists( 'UCF_Post_List_Config' ) ) {
 			$layouts = array(
 				'default' => 'Default Layout',
 				'card'    => 'Card Layout',
-				'count'   => 'List Count Layout'
+				'count'   => 'List Count Layout',
+				'material'=> 'Material Card Layout'
 			);
 
 			$layouts = apply_filters( self::$option_prefix . 'get_layouts', $layouts );
@@ -167,7 +168,7 @@ if ( !class_exists( 'UCF_Post_List_Config' ) ) {
 					'options_page'    => true,
 					'sc_attr'         => false,
 					'field_title'     => 'Fallback Image',
-					'field_desc'      => '(Optional) Image to display when post does not contain a featured image. Note: Images are only supported with the card layout.',
+					'field_desc'      => '(Optional) Image to display when post does not contain a featured image. Note: Images are only supported with the card or material layout.',
 					'field_type'      => 'image',
 					'field_options_section' => 'ucf_post_list_section_general'
 				) ),
