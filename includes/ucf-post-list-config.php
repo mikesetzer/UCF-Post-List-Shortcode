@@ -120,7 +120,6 @@ if ( !class_exists( 'UCF_Post_List_Config' ) ) {
 					'default' 	  	  => 0,
 					'format_callback' => array( 'UCF_Post_List_Config', 'format_option_int' )
 				) ),
-
 				'show_image'          => new UCF_Post_List_Option( 'show_image', array(
 					'default'         => true,
 					'format_callback' => array( 'UCF_Post_List_Config', 'format_option_bool' )

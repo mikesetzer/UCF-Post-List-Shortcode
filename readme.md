@@ -39,7 +39,7 @@ The name of the layout to use to display the list of posts.  Defaults to "defaul
 Heading text to display above the list of posts.  No heading is displayed by default.
 
 `show_image`
-True/false; whether an image for the post should be displayed.  Only applicable on layouts that support images.
+True/false; whether an image for the post should be displayed. Only applicable on layouts that support images. Preferred image ratio for material layout is 16x9.
 
 'show_excerpt'
 True/false; whether to display an excerpt of the post. If no excerpt exists, post content will be displayed instead. Defaults to false.
