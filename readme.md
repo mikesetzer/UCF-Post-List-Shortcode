@@ -33,16 +33,16 @@ Generally speaking, the `[ucf-post-list]` shortcode accepts most arguments for `
 ### Unique Arguments ###
 
 `layout`
-The name of the layout to use to display the list of posts.  Defaults to "default", an unstyled, unordered list of posts.
+The name of the layout to use to display the list of posts.  Defaults to "default", an unstyled, unordered list of posts. Includes a card layout "card", a material design card layout "material" and a search layout "search".
 
 `list_title`
 Heading text to display above the list of posts.  No heading is displayed by default.
 
 `show_image`
-True/false; whether or not an image for the post should be displayed.  Only applicable on layouts that support images.
+True/false; whether an image for the post should be displayed. Only applicable on layouts that support images. Preferred image ratio for material layout is 16x9.
 
 'show_excerpt'
-True/false; whether or not to display an excerpt of the post. If no excerpt exists, post content will be displayed instead. Defaults to false.
+True/false; whether to display an excerpt of the post. If no excerpt exists, post content will be displayed instead. Defaults to false.
 
 'excerpt_length'
 Any positive int; Max number of words to display for the excerpt. If set to 0, no limit is used. Defaults to 0. WordPress default excerpt size is 55 words.

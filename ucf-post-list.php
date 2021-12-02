@@ -29,6 +29,7 @@ require_once UCF_POST_LIST__PLUGIN_DIR . 'admin/ucf-post-list-admin.php';
 require_once UCF_POST_LIST__PLUGIN_DIR . 'layouts/ucf-post-list-default.php';
 require_once UCF_POST_LIST__PLUGIN_DIR . 'layouts/ucf-post-list-card.php';
 require_once UCF_POST_LIST__PLUGIN_DIR . 'layouts/ucf-post-list-count.php';
+require_once UCF_POST_LIST__PLUGIN_DIR . 'layouts/ucf-post-list-material.php';
 require_once UCF_POST_LIST__PLUGIN_DIR . 'layouts/ucf-post-search.php';
 
 
